@@ -1,6 +1,6 @@
 # Frontend Fundamentals (HTML 5 & CSS 3)
 
-Welcome to my repository for the **Frontend Fundamentals (HTML 5 & CSS 3)** course by Pirple. This course provided a solid foundation in web development, covering essential topics in HTML and CSS while also delving into more advanced techniques for responsive design. Below, you'll find details about the skills I acquired and the projects I completed during the course.
+This repository contains the projects completed during the **Frontend Fundamentals (HTML 5 & CSS 3)** course by Pirple. These projects demonstrate a strong understanding of web development concepts, focusing on HTML5, CSS3, and responsive design.
 
 ## What I Learned
 
