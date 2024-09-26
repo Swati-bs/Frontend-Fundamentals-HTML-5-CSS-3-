@@ -1,0 +1,4 @@
+make page reponsive
+
+learn @media rule 
+apply it for different screen size: screen < 400px ,400px > screen < 750px , screen > 750px

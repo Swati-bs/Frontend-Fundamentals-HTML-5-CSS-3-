@@ -1,0 +1,322 @@
+body {
+    margin: 0px;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.topbar {
+    background-color: rgb(85, 88, 88);
+    height:50px;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: inline-flex;
+    flex-direction: row; 
+    margin: 5px;
+    padding: 2px;
+    align-self: center;
+    justify-self: stretch;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+}
+#menu {
+    background-image: url('img/stir.png'); 
+    background-repeat: no-repeat; 
+    background-size: 20px 20px;
+    padding: 10px;
+    margin-left: 0px;
+}
+#logo {
+    margin: 5px;
+    width: auto;
+    height: auto;
+    align-self:center ;
+    justify-self: center;
+    background-position:center;
+    background-color: rgb(168, 167, 166);
+}
+#searchbtn{
+    background-image: url('img/search.png'); 
+    background-repeat: no-repeat; 
+    background-size: 20px 20px;
+    padding: 10px;
+}
+#searchinput {
+    color: rgb(208, 193, 195);
+    background-color: rgb(31, 32, 32);
+    max-width: 1000px;
+    border: 2px solid rgb(164, 162, 162);
+    padding: 0px 12px;
+    font-size: 17px;
+    flex-grow: 1;
+    flex-shrink: 2;
+    justify-self: center;
+}
+#mic {
+    background-image: url('img/mic.png'); 
+    background-repeat: no-repeat; 
+    background-size: 20px 20px;
+    background-color: rgb(171, 168, 168);
+    padding: 10px;
+}
+#topbaroptions {
+    display: none;                               /* intially hidden */
+    font-size: 24px;
+    color: white;
+}
+#upload{
+    background-image: url('img/upload.png'); 
+    background-repeat: no-repeat; 
+    background-size: 20px 20px;
+    padding: 10px
+}
+#bell{
+    background-image: url('img/bell.png'); 
+    background-repeat: no-repeat; 
+    background-size: 20px 20px;
+    padding: 10px;
+}
+#profile{
+    background-image: url('img/pf.png'); 
+    background-repeat: no-repeat; 
+    background-size: 20px 20px;
+    padding: 10px;
+}
+.bodydiv{
+    display:flex;
+    height: auto;
+    width: 100%;
+}
+.sidebar {
+    background-color: rgb(43, 43, 44);
+    width: 20%;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    overflow: scroll;
+    min-width: 50px;
+    flex-grow: 1;
+    flex-shrink: 2;
+}
+.sidebar::-webkit-scrollbar{
+    height: 0px;
+}
+.sidebartitle{
+    font-size: 30pxs;
+    color: white;
+}
+.sidebar > h3 {
+    color:white;
+    padding: 10px 10px;
+    background-color: rgb(75, 73, 73);
+}
+.sidebarsection{
+    display: flex;
+}
+.sidebarsection:hover{
+    background-color: rgb(125, 116, 116);
+}
+#sidebarlast1 {
+    border-bottom: 2px solid grey;
+}
+#sidebarlast2 {
+    border-bottom: 2px solid grey;
+}
+.sidebaricon{
+    width: 20px;
+    height: 20px;
+    padding: 20px 10px;
+}
+.sidebarsection > h4 {
+    color: White;
+    text-wrap: wrap;
+    padding: 1px;
+}
+.mainpage{
+    background-color: rgb(27, 27, 27);
+    width: 90%;
+}
+.navbar{
+    background-color:black;
+    padding: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow:scroll;
+}
+.navbar::-webkit-scrollbar{
+    height: 0px;
+}
+.categories{
+    width: auto;
+    font-size: 17px;
+    color: white;
+    text-wrap: nowrap;
+    background-color:rgba(132, 130, 130, 0.936);
+    height: auto;
+    padding: 7px 10px;
+    margin: 2px 5px;
+    border-radius: 20px;
+    border: 1px solid white;
+}   
+.categories:hover{
+    background-color: rgb(178, 168, 168);
+}
+.longvideosection{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    justify-content: space-between;
+}
+.longvideo {
+    flex: 1 1 300px;
+    padding-bottom: 3px;
+    display: inline-block;
+    align-self: center;
+    box-sizing: border-box;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+.longvideo:hover {
+    box-shadow: 0 4px 15px rgb(223, 216, 216);
+}
+.altvidimglv {
+    width: 90%;
+    height:200px;
+    align-self: center; 
+    justify-self: center;
+}
+.videoinfo {
+    display: flex;
+    margin: 1.5px;
+}
+.channelprofile {
+    /* background-image: url('img/stir.png');  */
+    background-repeat: no-repeat; 
+    background-size: 25px 30px;
+    padding:10px 10px;
+    margin: 5px;
+    width: 4%;
+    background-position: center;
+    align-self: center;
+    border-radius: 500px;
+}
+.desclayout {
+    display: flex;
+    justify-content: space-between;
+}
+.videodesc > h6 {
+    margin: 0px;
+    width: 90%;
+    text-wrap: nowrap;
+    text-align: left;
+    color: white;
+    padding-right: 220px;
+}
+.more {
+    color: white;
+    align-self:right;
+}
+.shortstitle {
+    display: flex;
+}
+.shortsicon {
+    background-image: url('img/stir.png'); 
+    background-repeat: no-repeat; 
+    background-size: 25px 30px;
+    padding:20px 5px;
+    margin: 5px 0px 5px 5px;
+    width: 4%;
+    background-position: center;
+    align-self: center;
+    border-radius: 100px;
+}
+.shortssection{
+    background-color: rgb(0, 12, 12);
+    padding: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    gap:3px;
+}
+.shorts {
+    flex: 1 1 25px;
+    background-color: black;
+    padding-bottom: 3px;
+    align-self: center;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+.altvidimg {
+    width:200px; 
+    height:420px;
+    align-self: center;
+}
+.shortdesc > h6 {
+    margin: 0px;
+    width: 90%;
+    text-wrap: nowrap;
+    text-align: left;
+    color: white;
+    padding-right: 90px;
+}
+.seemorediv {
+    background-color: black;
+    display: inline-grid;
+    margin: 3px;
+    width: 5%;
+    height: 40%;
+    align-self: center;
+}
+.seemore {
+    background-image: url('img/more.png'); 
+    background-repeat: no-repeat; 
+    background-size: 20px 20px;
+    padding:10px 5px;
+    margin: 5px;
+    width: 70%;
+    background-position: center;
+    align-self: center;
+    border-radius: 500px;
+}
+
+@media(max-width:677px){
+    #upload, #bell, #profile {
+        display: none;
+    }
+    #topbaroptions {
+        display: block;
+    }
+}
+@media(max-width:1024px) {
+    .longvideo {
+        width:30%;
+    }
+    .shorts {
+        width:30%;
+    }
+}
+@media(max-width:700px) {
+    .longvideo {
+        width:50%;
+    }
+    .shorts{
+        width:70%;
+    }
+}
+@media(max-width:480px) {
+    .longvideo {
+        width:100%;
+    }
+    .shorts {
+        width:100%;
+    }
+}
